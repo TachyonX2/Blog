@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+:root{
+    --shadow : 6px 6px 20px , #1c1d1d;
+    --light-color:  linear-gradient(to right top, #65dfc9, #5d6061);
+    --light-color2:  linear-gradient(to right top, #06f8cc, #17d4f1);
+    --glass:  linear-gradient(to right bottom, rgba(255,255,255,0.8), rgba(255,255,255,0.3));;
+    --glass2: linear-gradient(to right bottom, rgba(255,255,255,1), rgba(255,255,255,0.5)); ;
+    --glass3: linear-gradient(to right bottom, rgba(255,255,255,0.8), rgba(255,255,255,0.3)); ;
+}
+
+.head{
+    background: var(--light-color);
+    justify-content: center;
+    align-items: center;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    padding: 10px;
+    height: 200px
+}
+
+.header{
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    position: absolute;
+    top: 0;
+    left: 15%;
+    color: white;
+}
+
+.header p{
+    margin: 30px;
+    color: white;
+}
+
+.navbar{
+
+    align-content: center;
+}
+
+ .list-1{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 40px;
+    padding:10px;
+    position: absolute;
+    top:0;
+    right: 100px;
+}
+
+.navbar a{
+    text-decoration: none;
+    padding: 0px 10px;
+    color: white;
+}
+
+.Login a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+
+.navbar a:hover{
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-radius: 10px;
+    padding: 8px 10px;
+    transition: 0.2s ease-in;
+}
+
+form{
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+    border: none;
+}
+
+.card{
+    background-color: white;
+    height: 200px;
+    width: 250px;
+    position: relative;
+    top: 100px;
+    left: 130px;
+    box-shadow: 6px 6px 20px ;
+    border-radius: 5px;
+    z-index: 100;
+}
+
+.card-2{
+    background-color: white;
+    height: 200px;
+    width: 250px;
+    position: relative;
+    top: 100px;
+    left: 130px;
+    box-shadow: 6px 6px 20px ;
+    border-radius: 5px;
+    z-index: 100;
+}
+
+input{
+    height: 25px;
+    width: 210px;
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 15px 10px;
+}
+
+.submit{
+    height: 30px;
+    width: 80px;
+    justify-self: center;
+}
+
+pre{
+    justify-self: center;
+}
+
+.Login{
+    height: 30px;
+    width: 80px;
+    justify-self: center;
+}
+
+input:focus{
+    outline: none;
+}
+
+.skew{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    margin: 0;
+    position: absolute;
+    right: 0;
+    transform: skewY(-5deg);
+}
+
+.content-1{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    transform: skewY(5deg);
+}
+
+.adjust{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
